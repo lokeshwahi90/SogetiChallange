@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UI and API tests]">
+  <test thread-count="5" name="UI test(failed)">
+    <classes>
+      <class name="Tests.UITest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testContactUs"/>
+        </methods>
+      </class> <!-- Tests.UITest -->
+    </classes>
+  </test> <!-- UI test(failed) -->
+</suite> <!-- Failed suite [UI and API tests] -->

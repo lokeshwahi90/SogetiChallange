@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0c735e4-bf89-4c64-8eba-70172d4ee549" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pA84AGSqygC1YFpFXFLcMH1B94" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/lokeshwahi/Desktop/test/SogetiChallange/src/TestNG.xml">
+    <configuration name="Suit" type="TestNG">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UITest" type="TestNG">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UITest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/lokeshwahi/Desktop/sogetiChallange/src/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sogetiChallange.main" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/lokeshwahi/Desktop/test/SogetiChallange/src/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sogetiChallange.main~1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.UITest" />
+      <item itemvalue="TestNG.Suit" />
+      <item itemvalue="TestNG./Users/lokeshwahi/Desktop/sogetiChallange/src/TestNG.xml" />
+      <item itemvalue="TestNG./Users/lokeshwahi/Desktop/test/SogetiChallange/src/TestNG.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/lokeshwahi/Desktop/test/SogetiChallange/src/TestNG.xml" />
+        <item itemvalue="TestNG./Users/lokeshwahi/Desktop/sogetiChallange/src/TestNG.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0c735e4-bf89-4c64-8eba-70172d4ee549" name="Default Changelist" comment="" />
+      <created>1614614347560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614614347560</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="98" width="1071" height="802" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614618782505">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="184" y="98" width="1071" height="802" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1614618782505" />
+    <state x="457" y="268" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614614637346">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="457" y="268" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.1440.875@0.25.1440.875" timestamp="1614614637346" />
+    <state width="1398" height="232" key="GridCell.Tab.0.bottom" timestamp="1614682282330">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1614682282330" />
+    <state width="1398" height="232" key="GridCell.Tab.0.center" timestamp="1614682282327">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1614682282327" />
+    <state width="1398" height="232" key="GridCell.Tab.0.left" timestamp="1614682282326">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1614682282326" />
+    <state width="1398" height="232" key="GridCell.Tab.0.right" timestamp="1614682282329">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="232" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1614682282329" />
+    <state width="1398" height="282" key="GridCell.Tab.1.bottom" timestamp="1614681937112">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1614681937112" />
+    <state width="1398" height="282" key="GridCell.Tab.1.center" timestamp="1614681937111">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1614681937111" />
+    <state width="1398" height="282" key="GridCell.Tab.1.left" timestamp="1614681937111">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1614681937111" />
+    <state width="1398" height="282" key="GridCell.Tab.1.right" timestamp="1614681937112">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="282" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1614681937112" />
+  </component>
+</project>

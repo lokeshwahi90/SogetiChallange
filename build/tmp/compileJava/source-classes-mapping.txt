@@ -1,16 +1,16 @@
-Pages/HomePage.java
- Pages.HomePage
-Base/Property.java
- Base.Property
-Tests/TestsHelper.java
- Tests.TestsHelper
-apiBase/APIBase.java
- apiBase.APIBase
-Pages/PageHelper.java
- Pages.PageHelper
-Tests/UITest.java
- Tests.UITest
-Pages/AutomationWebPage.java
- Pages.AutomationWebPage
 Tests/APITest.java
  Tests.APITest
+Base/Property.java
+ Base.Property
+Pages/PageHelper.java
+ Pages.PageHelper
+apiBase/APIBase.java
+ apiBase.APIBase
+Pages/AutomationWebPage.java
+ Pages.AutomationWebPage
+Pages/HomePage.java
+ Pages.HomePage
+Tests/TestsHelper.java
+ Tests.TestsHelper
+Tests/UITest.java
+ Tests.UITest

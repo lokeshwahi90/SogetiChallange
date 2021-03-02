@@ -131,12 +131,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-UI_and_API_tests" title="Tests.APITest" hash-for-method="testDataDrivenApi(ca, B2R, Waverley)">testDataDrivenApi(ca, B2R, Waverley)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-UI_and_API_tests" title="Tests.APITest" hash-for-method="testDataDrivenApi(us, 12345, Schenectady)">testDataDrivenApi(us, 12345, Schenectady)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-UI_and_API_tests" title="Tests.APITest" hash-for-method="testDataDrivenApi(us, 12345, Schenectady)">testDataDrivenApi(us, 12345, Schenectady)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-UI_and_API_tests" title="Tests.APITest" hash-for-method="testDataDrivenApi(ca, B2R, Waverley)">testDataDrivenApi(ca, B2R, Waverley)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -192,43 +192,28 @@
                   <a name="testContactUs">
                   </a> <!-- testContactUs -->
                   <span class="method-name">testContactUs</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.id: 06838eea-8980-4305-83d0-42236fb4d528&apos; (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at Pages.PageHelper.waitUntilElementIsVisible(PageHelper.java:25)
-	at Pages.AutomationWebPage.fillContactForm(AutomationWebPage.java:85)
-	at Tests.UITest.testContactUs(UITest.java:35)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\30 6838eea\-8980\-4305\-83d0\-42236fb4d528&quot;}
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;06838eea-8980-4305-83d0-42236fb4d528&quot; name=&quot;submit&quot; type=&quot;submit&quot; value=&quot;06838eea-8980-4305-83d0-42236fb4d528&quot; data-f-is-finalized=&quot;false&quot; data-f-is-progressive-submit=&quot;true&quot; data-f-type=&quot;submitbutton&quot; data-f-element-name=&quot;__field_123932&quot; class=&quot;Form__Element FormExcludeDataRebind FormSubmitButton FormImageSubmitButton&quot;&gt;...&lt;/button&gt; is not clickable at point (722, 731). Other element would receive the click: &lt;div style=&quot;width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;&quot;&gt;&lt;/div&gt;
   (Session info: chrome=88.0.4324.192)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Lokeshs-Air-250&apos;, ip: &apos;2a02:8070:db3:5700:0:0:0:abff&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_77&apos;
+System info: host: &apos;Lokeshs-Air&apos;, ip: &apos;2a02:8070:db3:5700:0:0:0:abff&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_77&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/8g/khcy6ptx1pg...}, goog:chromeOptions: {debuggerAddress: localhost:50150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ba73e7a0567cc77610a07149a64866d1
-*** Element info: {Using=id, value=06838eea-8980-4305-83d0-42236fb4d528}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/8g/khcy6ptx1pg...}, goog:chromeOptions: {debuggerAddress: localhost:57400}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28099c3d7ef593c04c89b57eb4ef51a3
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 27 more
-... Removed 25 stack frames
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at Pages.AutomationWebPage.fillContactForm(AutomationWebPage.java:84)
+	at Tests.UITest.testContactUs(UITest.java:35)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -278,18 +263,18 @@ Session ID: ba73e7a0567cc77610a07149a64866d1
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testDataDrivenApi(ca, B2R, Waverley)">
-                  </a> <!-- testDataDrivenApi(ca, B2R, Waverley) -->
-                  <span class="method-name">testDataDrivenApi</span>
-                  <span class="parameters">(ca, B2R, Waverley)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testDataDrivenApi(us, 12345, Schenectady)">
                   </a> <!-- testDataDrivenApi(us, 12345, Schenectady) -->
                   <span class="method-name">testDataDrivenApi</span>
                   <span class="parameters">(us, 12345, Schenectady)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDataDrivenApi(ca, B2R, Waverley)">
+                  </a> <!-- testDataDrivenApi(ca, B2R, Waverley) -->
+                  <span class="method-name">testDataDrivenApi</span>
+                  <span class="parameters">(ca, B2R, Waverley)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -333,23 +318,23 @@ Session ID: ba73e7a0567cc77610a07149a64866d1
         </div> <!-- panel UI_and_API_tests -->
         <div panel-name="test-xml-UI_and_API_tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/lokeshwahi/Desktop/sogetiChallange/TestNG.xml</span>
+            <span class="header-content">/Users/lokeshwahi/Desktop/test/SogetiChallange/src/TestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;UI and API tests&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;UI test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UITest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Tests.UITest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- UI test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;API test&quot;&gt;
+  &lt;/test&gt; &lt;!-- UITest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;APITest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Tests.APITest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- API test --&gt;
+  &lt;/test&gt; &lt;!-- APITest --&gt;
 &lt;/suite&gt; &lt;!-- UI and API tests --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -361,10 +346,10 @@ Session ID: ba73e7a0567cc77610a07149a64866d1
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">UI test (1 class)</span>
+                <span class="test-name">UITest (1 class)</span>
               </li>
               <li>
-                <span class="test-name">API test (1 class)</span>
+                <span class="test-name">APITest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -392,58 +377,58 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testContactUs')
+data.setCell(0, 1, 'testAutomationIsSelectedInMenu')
 data.setCell(0, 2, 'Tests.UITest')
-data.setCell(0, 3, 34170);
+data.setCell(0, 3, 8567);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testValidSogetiLinks')
 data.setCell(1, 2, 'Tests.UITest')
-data.setCell(1, 3, 6648);
+data.setCell(1, 3, 6932);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testAutomationIsSelectedInMenu')
+data.setCell(2, 1, 'testContactUs')
 data.setCell(2, 2, 'Tests.UITest')
-data.setCell(2, 3, 5133);
+data.setCell(2, 3, 6249);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'negetiveTestForPostCodeAndPlace')
 data.setCell(3, 2, 'Tests.APITest')
-data.setCell(3, 3, 973);
+data.setCell(3, 3, 1033);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testDataDrivenApi')
 data.setCell(4, 2, 'Tests.APITest')
-data.setCell(4, 3, 942);
+data.setCell(4, 3, 898);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testDataDrivenApi')
 data.setCell(5, 2, 'Tests.APITest')
-data.setCell(5, 3, 667);
+data.setCell(5, 3, 822);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testDataDrivenApi')
 data.setCell(6, 2, 'Tests.APITest')
-data.setCell(6, 3, 626);
+data.setCell(6, 3, 770);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testForStatusCodeAndJson')
 data.setCell(7, 2, 'Tests.APITest')
-data.setCell(7, 3, 272);
+data.setCell(7, 3, 267);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testForPostCodeAndPlace')
+data.setCell(8, 1, 'testForCountryAndState')
 data.setCell(8, 2, 'Tests.APITest')
-data.setCell(8, 3, 201);
+data.setCell(8, 3, 225);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'negetiveTestForStatusCodeAndJson')
+data.setCell(9, 1, 'testForResponseTime')
 data.setCell(9, 2, 'Tests.APITest')
-data.setCell(9, 3, 189);
+data.setCell(9, 3, 214);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testForCountryAndState')
+data.setCell(10, 1, 'testForPostCodeAndPlace')
 data.setCell(10, 2, 'Tests.APITest')
-data.setCell(10, 3, 184);
+data.setCell(10, 3, 210);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testForResponseTime')
+data.setCell(11, 1, 'negetiveTestForStatusCodeAndJson')
 data.setCell(11, 2, 'Tests.APITest')
-data.setCell(11, 3, 180);
+data.setCell(11, 3, 201);
 window.suiteTableData['UI_and_API_tests']= { tableData: data, tableDiv: 'times-div-UI_and_API_tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-UI_and_API_tests">
               </div> <!-- times-div-UI_and_API_tests -->
             </div> <!-- times-div -->
@@ -479,9 +464,15 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">negetiveTestForPostCodeAndPlace</span>
+              <span class="reporter-method-name">negetiveTestForStatusCodeAndJson</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Negative test for test 'testForPostCodeAndPlace'</span>
+                <span class="reporter-method-output">Negative test for the method 'testForStatusCodeAndJson'</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testForResponseTime</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verify that the response time is below 1s.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -491,24 +482,9 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testDataDrivenApi(ca, B2R, Waverley)</span>
+              <span class="reporter-method-name">negetiveTestForPostCodeAndPlace</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Date driven Test</span>
-                <span class="reporter-method-output">Step 1: Verify that the response status code is 200 and content type is JSON.</span>
-                <span class="reporter-method-output">Step 2: Verify that the response time is below 1s.</span>
-                <span class="reporter-method-output">Step 3: Verify in Response - 'Place Name' for each input 'Country' and 'Postal Code'.</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">negetiveTestForStatusCodeAndJson</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Negative test for the method 'testForStatusCodeAndJson'</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testForCountryAndState</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify in Response - That country is 'Germany' and state is 'Baden-Württemberg'.</span>
+                <span class="reporter-method-output">Negative test for test 'testForPostCodeAndPlace'</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -527,7 +503,13 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testDataDrivenApi(us, 90210, Beverly Hills)</span>
+              <span class="reporter-method-name">testForCountryAndState</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verify in Response - That country is 'Germany' and state is 'Baden-Württemberg'.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDataDrivenApi(ca, B2R, Waverley)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Date driven Test</span>
                 <span class="reporter-method-output">Step 1: Verify that the response status code is 200 and content type is JSON.</span>
@@ -536,9 +518,12 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testForResponseTime</span>
+              <span class="reporter-method-name">testDataDrivenApi(us, 90210, Beverly Hills)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Verify that the response time is below 1s.</span>
+                <span class="reporter-method-output">Date driven Test</span>
+                <span class="reporter-method-output">Step 1: Verify that the response status code is 200 and content type is JSON.</span>
+                <span class="reporter-method-output">Step 2: Verify that the response time is below 1s.</span>
+                <span class="reporter-method-output">Step 3: Verify in Response - 'Place Name' for each input 'Country' and 'Postal Code'.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -565,54 +550,54 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testContactUs</span>
-                <span class="method-start">5136 ms</span>
+                <span class="method-start">8577 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testValidSogetiLinks</span>
-                <span class="method-start">39319 ms</span>
+                <span class="method-start">14838 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">45968 ms</span>
+                <span class="method-start">21772 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.APITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">negetiveTestForPostCodeAndPlace</span>
-                <span class="method-start">46209 ms</span>
+                <span class="method-start">22057 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">negetiveTestForStatusCodeAndJson</span>
-                <span class="method-start">47183 ms</span>
+                <span class="method-start">23095 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testForCountryAndState</span>
-                <span class="method-start">47374 ms</span>
+                <span class="method-start">23296 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testForPostCodeAndPlace</span>
-                <span class="method-start">47560 ms</span>
+                <span class="method-start">23522 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testForResponseTime</span>
-                <span class="method-start">47761 ms</span>
+                <span class="method-start">23733 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testForStatusCodeAndJson</span>
-                <span class="method-start">47941 ms</span>
+                <span class="method-start">23948 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDataDrivenApi(us, 90210, Beverly Hills)</span>
-                <span class="method-start">48221 ms</span>
+                <span class="method-start">24224 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDataDrivenApi(us, 12345, Schenectady)</span>
-                <span class="method-start">48888 ms</span>
+                <span class="method-start">25123 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDataDrivenApi(ca, B2R, Waverley)</span>
-                <span class="method-start">49831 ms</span>
+                <span class="method-start">25947 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

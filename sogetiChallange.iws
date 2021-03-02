@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0c735e4-bf89-4c64-8eba-70172d4ee549" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Pages/AutomationWebPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Pages/AutomationWebPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sogetiChallange.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sogetiChallange.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/UI and API tests/API test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/UI and API tests/API test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/UI and API tests/UI test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/UI and API tests/UI test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/UI and API tests/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/UI and API tests/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.APITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.APITest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.UITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.UITest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/UI and API tests/API test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/UI and API tests/UI test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/UI and API tests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/UI and API tests/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/UI and API tests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/UI and API tests/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/UI and API tests/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/UI and API tests/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/UI and API tests/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/UI and API tests/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/lokeshwahi/Desktop/sogetiChallange/src/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sogetiChallange.main" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/lokeshwahi/Desktop/test/SogetiChallange/src/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/lokeshwahi/Desktop/test/SogetiChallange/src/TestNG.xml" type="TestNG" nameIsGenerated="true">
       <module name="sogetiChallange.main~1" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -96,15 +121,8 @@
     <list>
       <item itemvalue="TestNG.UITest" />
       <item itemvalue="TestNG.Suit" />
-      <item itemvalue="TestNG./Users/lokeshwahi/Desktop/sogetiChallange/src/TestNG.xml" />
       <item itemvalue="TestNG./Users/lokeshwahi/Desktop/test/SogetiChallange/src/TestNG.xml" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG./Users/lokeshwahi/Desktop/test/SogetiChallange/src/TestNG.xml" />
-        <item itemvalue="TestNG./Users/lokeshwahi/Desktop/sogetiChallange/src/TestNG.xml" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,30 +136,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="98" width="1071" height="802" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614618782505">
+    <state x="184" y="98" width="1071" height="802" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614683829335">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="184" y="98" width="1071" height="802" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1614618782505" />
+    <state x="184" y="98" width="1071" height="802" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1614683829335" />
     <state x="457" y="268" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614614637346">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="457" y="268" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.1440.875@0.25.1440.875" timestamp="1614614637346" />
-    <state width="1398" height="232" key="GridCell.Tab.0.bottom" timestamp="1614682282330">
+    <state width="1398" height="232" key="GridCell.Tab.0.bottom" timestamp="1614684186715">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="232" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1614682282330" />
-    <state width="1398" height="232" key="GridCell.Tab.0.center" timestamp="1614682282327">
+    <state width="1398" height="232" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1614684186715" />
+    <state width="1398" height="232" key="GridCell.Tab.0.center" timestamp="1614684186714">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="232" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1614682282327" />
-    <state width="1398" height="232" key="GridCell.Tab.0.left" timestamp="1614682282326">
+    <state width="1398" height="232" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1614684186714" />
+    <state width="1398" height="232" key="GridCell.Tab.0.left" timestamp="1614684186713">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="232" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1614682282326" />
-    <state width="1398" height="232" key="GridCell.Tab.0.right" timestamp="1614682282329">
+    <state width="1398" height="232" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1614684186713" />
+    <state width="1398" height="232" key="GridCell.Tab.0.right" timestamp="1614684186714">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="232" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1614682282329" />
+    <state width="1398" height="232" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1614684186714" />
     <state width="1398" height="282" key="GridCell.Tab.1.bottom" timestamp="1614681937112">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

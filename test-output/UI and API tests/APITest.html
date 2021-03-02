@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  API test</title>
+<title>TestNG:  APITest</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>API test</h2><table border='1' align="center">
+<h2 align='center'>APITest</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 01 17:32:10 CET 2021</td>
+<td>Started on:</td><td>Tue Mar 02 12:24:31 CET 2021</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4252 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4661 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Tests.APITest.negetiveTestForPostCodeAndPlace()'><b>negetiveTestForPostCodeAndPlace</b><br>Test class: Tests.APITest<br/>
-<a href="#Output-1914615775" onClick='toggleBox("Output-1914615775", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1617156106" onClick='toggleBox("Output-1617156106", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1914615775" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1914615775">
+<a href="#Output-1617156106" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1617156106">
 Negative test for test 'testForPostCodeAndPlace'<br/>
 </div>
 </td>
@@ -90,8 +90,8 @@ Negative test for test 'testForPostCodeAndPlace'<br/>
 	at Tests.APITest.negetiveTestForPostCodeAndPlace(APITest.java:44)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1914615775", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1914615775'><pre>java.lang.AssertionError: Not matched
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1617156106", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1617156106'><pre>java.lang.AssertionError: Not matched
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at apiBase.APIBase.assertPostCodeAndPlaceName(APIBase.java:94)
@@ -121,14 +121,14 @@ Negative test for test 'testForPostCodeAndPlace'<br/>
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
 <td>Tests.APITest@712625fd</td></tr>
 <tr>
 <td title='Tests.APITest.negetiveTestForStatusCodeAndJson()'><b>negetiveTestForStatusCodeAndJson</b><br>Test class: Tests.APITest<br/>
-<a href="#Output-741370455" onClick='toggleBox("Output-741370455", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-812168041" onClick='toggleBox("Output-812168041", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-741370455" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-741370455">
+<a href="#Output-812168041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-812168041">
 Negative test for the method 'testForStatusCodeAndJson'<br/>
 </div>
 </td>
@@ -138,8 +138,8 @@ Negative test for the method 'testForStatusCodeAndJson'<br/>
 	at Tests.APITest.negetiveTestForStatusCodeAndJson(APITest.java:20)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace741370455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace741370455'><pre>java.lang.IllegalThreadStateException: Status code not ok 200 (ok): InboundJaxrsResponse{ClientResponse{method=GET, uri=http://api.zippopotam.us/en/bw/stuttgart, status=404, reason=Not Found}}
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace812168041", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace812168041'><pre>java.lang.IllegalThreadStateException: Status code not ok 200 (ok): InboundJaxrsResponse{ClientResponse{method=GET, uri=http://api.zippopotam.us/en/bw/stuttgart, status=404, reason=Not Found}}
 {}
 	at apiBase.APIBase.assertResponseJsonAndStatusCode(APIBase.java:66)
 	at Tests.APITest.negetiveTestForStatusCodeAndJson(APITest.java:20)
@@ -172,10 +172,10 @@ Negative test for the method 'testForStatusCodeAndJson'<br/>
 <td>Tests.APITest@712625fd</td></tr>
 <tr>
 <td title='Tests.APITest.testDataDrivenApi()'><b>testDataDrivenApi</b><br>Test class: Tests.APITest<br>Parameters: us, 90210, Beverly Hills<br/>
-<a href="#Output-1245439653" onClick='toggleBox("Output-1245439653", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1687087217" onClick='toggleBox("Output-1687087217", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1245439653" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1245439653">
+<a href="#Output-1687087217" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687087217">
 Date driven Test<br/>
 Step 1: Verify that the response status code is 200 and content type is JSON.<br/>
 Step 2: Verify that the response time is below 1s.<br/>
@@ -187,10 +187,10 @@ Step 3: Verify in Response - 'Place Name' for each input 'Country' and 'Postal C
 <td>Tests.APITest@712625fd</td></tr>
 <tr>
 <td title='Tests.APITest.testDataDrivenApi()'><b>testDataDrivenApi</b><br>Test class: Tests.APITest<br>Parameters: us, 12345, Schenectady<br/>
-<a href="#Output-924915581" onClick='toggleBox("Output-924915581", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-403960809" onClick='toggleBox("Output-403960809", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-924915581" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-924915581">
+<a href="#Output-403960809" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-403960809">
 Date driven Test<br/>
 Step 1: Verify that the response status code is 200 and content type is JSON.<br/>
 Step 2: Verify that the response time is below 1s.<br/>
@@ -202,10 +202,10 @@ Step 3: Verify in Response - 'Place Name' for each input 'Country' and 'Postal C
 <td>Tests.APITest@712625fd</td></tr>
 <tr>
 <td title='Tests.APITest.testDataDrivenApi()'><b>testDataDrivenApi</b><br>Test class: Tests.APITest<br>Parameters: ca, B2R, Waverley<br/>
-<a href="#Output-1668385683" onClick='toggleBox("Output-1668385683", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-991242536" onClick='toggleBox("Output-991242536", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1668385683" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1668385683">
+<a href="#Output-991242536" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-991242536">
 Date driven Test<br/>
 Step 1: Verify that the response status code is 200 and content type is JSON.<br/>
 Step 2: Verify that the response time is below 1s.<br/>
@@ -217,10 +217,10 @@ Step 3: Verify in Response - 'Place Name' for each input 'Country' and 'Postal C
 <td>Tests.APITest@712625fd</td></tr>
 <tr>
 <td title='Tests.APITest.testForCountryAndState()'><b>testForCountryAndState</b><br>Test class: Tests.APITest<br/>
-<a href="#Output-1536478396" onClick='toggleBox("Output-1536478396", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-990684641" onClick='toggleBox("Output-990684641", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1536478396" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1536478396">
+<a href="#Output-990684641" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-990684641">
 Verify in Response - That country is 'Germany' and state is 'Baden-Württemberg'.<br/>
 </div>
 </td>
@@ -229,10 +229,10 @@ Verify in Response - That country is 'Germany' and state is 'Baden-Württemberg'
 <td>Tests.APITest@712625fd</td></tr>
 <tr>
 <td title='Tests.APITest.testForPostCodeAndPlace()'><b>testForPostCodeAndPlace</b><br>Test class: Tests.APITest<br/>
-<a href="#Output-950125603" onClick='toggleBox("Output-950125603", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1538462491" onClick='toggleBox("Output-1538462491", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-950125603" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-950125603">
+<a href="#Output-1538462491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1538462491">
 Verify in Response - For Post Code '70597' the place name has 'Stuttgart Degerloch'.<br/>
 </div>
 </td>
@@ -241,10 +241,10 @@ Verify in Response - For Post Code '70597' the place name has 'Stuttgart Degerlo
 <td>Tests.APITest@712625fd</td></tr>
 <tr>
 <td title='Tests.APITest.testForResponseTime()'><b>testForResponseTime</b><br>Test class: Tests.APITest<br/>
-<a href="#Output-862152124" onClick='toggleBox("Output-862152124", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1423752095" onClick='toggleBox("Output-1423752095", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-862152124" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-862152124">
+<a href="#Output-1423752095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1423752095">
 Verify that the response time is below 1s.<br/>
 </div>
 </td>
@@ -253,10 +253,10 @@ Verify that the response time is below 1s.<br/>
 <td>Tests.APITest@712625fd</td></tr>
 <tr>
 <td title='Tests.APITest.testForStatusCodeAndJson()'><b>testForStatusCodeAndJson</b><br>Test class: Tests.APITest<br/>
-<a href="#Output-954937264" onClick='toggleBox("Output-954937264", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1962865655" onClick='toggleBox("Output-1962865655", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-954937264" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-954937264">
+<a href="#Output-1962865655" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1962865655">
 Verify that the response status code is 200 and content type is JSON.<br/>
 </div>
 </td>

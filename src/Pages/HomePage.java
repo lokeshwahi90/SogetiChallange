@@ -107,7 +107,7 @@ public class HomePage extends PageHelper {
         {
             URL url = new URL(linkUrl);
             SoftAssert sa = new SoftAssert();
-            //Now we will be creating url connection and getting the response code
+            //create url connection and get the response code
             HttpURLConnection httpURLConnect=(HttpURLConnection)url.openConnection();
             httpURLConnect.setConnectTimeout(5000);
             httpURLConnect.connect();
